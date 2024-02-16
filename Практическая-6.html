@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form name="input" action="html_form_action.asp" method="get">
+        <table border=1 bgcolor="#ddffdd">
+          <tr>
+            <td align="center">
+              <input type="text" name="search" size="50" value="Строка для поиска">
+              <input type="submit" value="Поиск">
+              <br>
+              <input type="checkbox" name="news">Искать в новостях
+              <input type="checkbox" name="arhive">Искать в архивах
+            </td>
+          </tr>    
+        </table>
+    </form>
+    <form action="MAILTO:info@mggtk.ru" method="post" enctype="text/plain">
+        <h3>Подписка на новостную рассылку МГГТК АГУ</h3>
+        Имя:<br>
+        <input type="text" name="name" value="ваше имя" size="20">
+        <br>
+        Mail:<br>
+        <input type="text" name="mail" value="ваш е-mail" size="20">
+        <br>
+        Я хочу получать:
+        <br>
+        <input type="checkbox" name="news"> Новости о жизни МГГТК АГУ
+        <br>
+        <input type="checkbox" name="courses"> Информацию о новых курсах
+        <br>
+        <input type="checkbox" name="books"> Информацию о событиях
+        <br>
+        Комментарий:<br>
+        <textarea rows="5" cols="30">
+        </textarea>
+        <hr>
+        <input type="submit" value="Послать">
+        <input type="reset" value="Сброс">
+    </form>  
+
+
+    <br>
+    <form>
+        Имя: 
+        <input type="text", name="firstname", value="Bob", maxlength="3">
+        <br>
+        Фамилия: 
+        <input type="text", name="lastname", value="Гейтс", size="10">
+        <br>
+        Пароль: 
+        <input type="password" name="password" value="", maxlength="8">
+        <br>
+        Укажите Ваш пол:
+        <br>
+        <input type="radio" name="sex" value="male", checked="checked"> мужчина
+        <br>
+        <input type="radio" name="sex" value="female"> женщина
+        <br>
+        <hr>
+        В этом году я собираюсь приобрести:
+        <br>
+        <input type="checkbox" name="computer", checked="checked">
+        Компьютер
+        <br>
+        <input type="checkbox" name="notebook">
+        Ноутбук
+        <br>
+        <input type="checkbox" name="printer">
+        Принтер
+        <br>
+        <input type="checkbox" name="scanner">
+        Сканер
+    </form>      
+    <br>
+
+    <form name="input" action="html_form_action.asp" method="get">
+        Найти: 
+        <input type="text" name="search" size=25>
+        <br>
+        <input type="submit">
+        <input type="reset">
+      
+      </form>
+      
+</body>
+</html>
